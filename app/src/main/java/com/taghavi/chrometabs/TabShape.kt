@@ -47,7 +47,7 @@ class TabShape(
 
             quadraticTo(
                 x1 = width, y1 = height,
-                x2 = width - bottomRight, y2 = height
+                x2 = width + bottomRight, y2 = height
             )
 
             lineTo(x = -bottomLeft, height)
